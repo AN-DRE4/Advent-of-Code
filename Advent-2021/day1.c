@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 void day1part1() {
-    FILE *inp = fopen("advent_input/day1.txt", "r");
+    FILE *inp = fopen("day1.txt", "r");
     if (inp == NULL) {
         printf("File not found!!\n");
         }
@@ -25,7 +25,7 @@ void day1part1() {
 }
 
 void day1part2() {
-    FILE *inp = fopen("advent_input/day1.txt", "r");
+    FILE *inp = fopen("day1.txt", "r");
     if (inp == NULL) {
         printf("File not found!!");
         }
